@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "229530234889",
+    "project_id": "nutmember-18c49",
+    "storage_bucket": "nutmember-18c49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229530234889:android:13d632aca74daf00cc08d8",
+        "android_client_info": {
+          "package_name": "com.example.nutmember"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCASI07GHic6IgKHzfoo_MffsAi_yLaYkc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
