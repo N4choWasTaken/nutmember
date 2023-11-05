@@ -4,6 +4,7 @@ import 'package:nutmember/responsive/responsive_layout_screen.dart';
 import 'package:nutmember/responsive/web_screen_layout.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:nutmember/screens/login_screen.dart';
+import 'package:nutmember/screens/signup_screen.dart';
 import 'firebase_options.dart';
 
 void main() async{
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       title: 'NutMember',
       theme: ThemeData.light(),
       //home: const ResponsiveLayout(mobileScreenLayout: MobileScreenLayout(),webScreenLayout: WebScreenLayout()),
-      home: LoginScreen(),
+      home: SignUpScreen(),
     );
   }
 }
