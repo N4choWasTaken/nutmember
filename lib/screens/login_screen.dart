@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nutmember/responsive/widgets/text_field_input.dart';
+import 'package:nutmember/screens/signup_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -57,7 +58,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
 
                   GestureDetector(
-                    onTap: null,
+                    onTap: () => const SignUpScreen(),
                     child: Container(
                       padding: const EdgeInsets.symmetric(vertical: 8),
                       child: const Text("Sign up.", style: TextStyle(
